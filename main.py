@@ -6,7 +6,7 @@ class MyFrame(wx.Frame):
 
         menubar = wx.MenuBar()
         fileMenu = wx.Menu()
-        item = fileMenu.Append(wx.ID_EXIT, "Еход\tCtrl+Q", "Еход высть!")
+        item = fileMenu.Append(wx.ID_EXIT, "Выход\tCtrl+Q", "Выход есть!")
 
         menubar.Append(fileMenu, "&File")
         self.SetMenuBar(menubar)
